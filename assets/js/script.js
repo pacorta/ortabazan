@@ -64,6 +64,7 @@ const filterBtn = document.querySelectorAll("[data-filter-btn]");
 select.addEventListener("click", function () { elementToggleFunc(this); });
 
 // add event in all select items
+/*
 for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
 
@@ -93,6 +94,7 @@ const filterFunc = function (selectedValue) {
   }
 
 }
+*/
 
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
